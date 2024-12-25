@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>زر تحويل</title>
+    <style>
+        /* تنسيق الصفحة */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #000000; /* خلفية سوداء */
+        }
+
+        /* تصميم الزر */
+        .redirect-button {
+            background-color: #000000; /* خلفية الزر سوداء */
+            color: #ffffff; /* نص أبيض */
+            border: 2px solid #ffffff; /* إطار أبيض */
+            padding: 15px 30px; /* مسافة داخلية */
+            font-size: 18px; /* حجم الخط */
+            border-radius: 5px; /* زوايا مستديرة */
+            cursor: pointer; /* تغيير المؤشر إلى اليد */
+            transition: all 0.3s ease; /* تأثير سلس */
+        }
+
+        /* تأثير عند التمرير */
+        .redirect-button:hover {
+            background-color: #ffffff; /* خلفية بيضاء عند التمرير */
+            color: #000000; /* نص أسود */
+        }
+    </style>
+</head>
+<body>
+    <!-- زر التحويل -->
+    <button class="redirect-button" onclick="redirectToWebsite()">^_^</button>
+
+    <script>
+        // وظيفة التحويل
+        function redirectToWebsite() {
+            window.location.href = "https://www.google.com"; // رابط الموقع
+        }
+    </script>
+</body>
+</html>
